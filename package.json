@@ -1,0 +1,25 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register test.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chai": "^4.0.5",
+    "@types/lodash": "^4.14.85",
+    "@types/mocha": "^2.2.44",
+    "@types/node": "^8.0.51",
+    "@types/synaptic": "^1.0.3",
+    "chai": "^4.1.2",
+    "lodash": "^4.17.4",
+    "mnist": "^1.1.0",
+    "mocha": "^4.0.1",
+    "synaptic": "^1.1.4",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.6.1"
+  }
+}
